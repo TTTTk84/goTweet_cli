@@ -33,11 +33,12 @@ func executor(s string) {
 
     switch(args[0]){
     case "-post":
-        t, err := api.PostTweet(args[1],nil)
-        if err != nil {
-        	log.Fatal("err :",err)
-        }
-        fmt.Println("success :",t.Text)
+        // t, err := api.PostTweet(args[1],nil)
+        // if err != nil {
+        // 	log.Fatal("err :",err)
+        // }
+        // fmt.Println("success :",t.Text)
+        fmt.Println("ok")
         return
     case "-search":
         searchUser(api, args[1])
