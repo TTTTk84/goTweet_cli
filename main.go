@@ -9,8 +9,8 @@ func main() {
 	p := prompt.New(
 		executor,
 		completer,
-		prompt.OptionTitle("gotweet"),
-		prompt.OptionPrefix("gotweet >"),
+		prompt.OptionTitle("gotweet_cli"),
+		prompt.OptionPrefix("gotweet_cli >"),
 	)
 
 	p.Run()
