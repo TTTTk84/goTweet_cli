@@ -56,6 +56,7 @@ func searchUser(api *anaconda.TwitterApi, word string) {
         log.Fatal("err :",err)
     }
     for _,j := range t {
-        fmt.Println(j)
+        fmt.Printf("Name: %s  ,ScreenName: %s  ,URL: %s \n",j.Name,  j.ScreenName, j.URL )
     }
+
 }
